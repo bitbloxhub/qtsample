@@ -25,7 +25,7 @@ class HTTPGet(QtWidgets.QWidget):
 
     @QtCore.Slot()
     def get(self):
-        self.content.text = requests.get(self.url.text)
+        self.content.plain_text = requests.get(self.url.text).text
 
 
 if __name__ == "__main__":
