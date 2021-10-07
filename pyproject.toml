@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qtsample"
+version = "0.1.0"
+description = ""
+authors = ["bitbloxhub <45184892+bitbloxhub@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+PySide6 = "^6.2.0"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
