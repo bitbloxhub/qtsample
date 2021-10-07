@@ -17,6 +17,7 @@ class HTTPGet(QtWidgets.QWidget):
 
         self.content = QtWidgets.QTextEdit()
         self.content.placeholder_text = "Content here"
+        self.content.read_only = True
 
         self.layout = QtWidgets.QVBoxLayout(self)
         self.layout.add_widget(self.url)
